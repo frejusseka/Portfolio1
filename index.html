@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma page personnelle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- En-tête avec navigation -->
+    <header>
+        <nav>
+            <h1 class="logo">Mon Univers</h1>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#passion">Ma passion</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section À propos -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2><i class="fas fa-user"></i> À propos de moi</h2>
+            <div class="about-content">
+                <img src="Image/Frejus.jpeg" alt="Photo de profil" class="profile-img">
+                <div class="about-text">
+                    <h3>SEKA Chikiépo Armel Fréjus</h3>
+                    <p><strong>Parcours :</strong> Développeur d’applications diplômé d’un BTS en Informatique, passionné par la programmation et la création de solutions web modernes.
+                               J’aime transformer des idées en projets concrets à travers le code.
+                               En dehors du développement, je suis passionné par la musique, la moto, la vitesse et les voyages.</p>
+                    <p><strong>Centres d'intérêt :</strong></p>
+                    <ul>
+                        <li>Programmation (HTML, CSS, JavaScript, PHP)</li>
+                        <li>Musique (guitare et production musicale)</li>
+                        <li>Cours(Motos, Voiture) </li>
+                        <li>Voyages et découvertes culturelles</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Ma passion -->
+    <section id="passion" class="section dark">
+        <div class="container">
+<h2><i class="fas fa-bolt"></i> Ma passion : Créer, Explorer, Conduire, Vibrer</h2>
+<div class="passion-content">
+    <p>Je vis au carrefour de <Strong>quatre mondes </Strong> :</p>
+    
+    <p>💻 <strong>Créer</strong> avec du code - Transformer des idées en applications fonctionnelles<br>
+    🎸 <strong>Vibrer</strong> avec la musique - De l'écriture à l'écoute, un langage universel<br>
+    🏍️ <strong>Conduire</strong> avec passion - L'appel de la route et des belles mécaniques<br>
+    🌍 <strong>Explorer</strong> sans limites - Découvrir, apprendre, s'émerveiller</p>
+    
+    <p>Chaque passion influence les autres : mes voyages inspirent mes projets tech, 
+    la musique accompagne mes road-trips, et la programmation me permet de documenter 
+    et partager toutes ces expériences.</p>
+    
+    <p>Actuellement, je travaille sur une application web qui combine ces univers : 
+    un planificateur de road-trips musicalisés, avec des itinéraires adaptés aux amateurs 
+    de belles routes et de belles playlists.</p>
+</div>     
+
+<div class="gallery">
+    <!-- Programmation -->
+    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c" 
+         alt="Écran de code avec éditeur VS Code">
+    
+    <!-- Musique -->
+    <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" 
+         alt="Studio de musique avec guitare">
+    
+    <!-- Route/Voyage -->
+    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4" 
+         alt="Route de montagne avec voiture"> 
+</div>            
+        </div>
+    </section>
+
+    <!-- Section Interactive -->
+    <section class="section interactive">
+        <div class="container">
+            <h2><i class="fas fa-magic"></i> Zone interactive</h2>
+            <p>Cliquez sur le bouton pour voir un message personnalisé !</p>
+            <button id="actionBtn">Clique-moi !</button>
+            <p id="message" class="message"></p>
+
+            <h3>Changer la couleur de fond :</h3>
+            <div class="color-buttons">
+                <button class="color-btn" data-color="#f8f9fa">Blanc</button>
+                <button class="color-btn" data-color="#e3f2fd">Bleu clair</button>
+                <button class="color-btn" data-color="#f3e5f5">Lavande</button>
+                <button class="color-btn" data-color="#e8f5e9">Vert clair</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer id="contact">
+        <div class="container">
+            <h3>Restons en contact</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a> 
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p>© 2025 - Page personnelle créée avec passion.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
